@@ -12,7 +12,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from sklearn.metrics import silhouette_score, classification_report, regression_metrics
+from sklearn.metrics import silhouette_score, classification_report
 from typing import Dict, List, Tuple, Optional, Union
 import warnings
 warnings.filterwarnings('ignore')
