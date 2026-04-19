@@ -73,7 +73,7 @@ def load_data():
     """Load the e-commerce dataset."""
     try:
         # Try to load the fixed CSV file
-        df = pd.read_csv('./Ecommerce_Consumer_Behavior_Analysis_Data_fixed.csv')
+        df = pd.read_csv('Ecommerce_Consumer_Behavior_Analysis_Data_fixed.csv')
         
         # Data preprocessing
         df['Purchase_Amount_Float'] = df['Purchase_Amount'].str.replace('$', '').str.replace(',', '').astype(float)
